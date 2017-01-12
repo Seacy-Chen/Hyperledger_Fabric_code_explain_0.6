@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tecbot/gorocksdb.png)](https://travis-ci.org/tecbot/gorocksdb) [![GoDoc](https://godoc.org/github.com/tecbot/gorocksdb?status.png)](http://godoc.org/github.com/tecbot/gorocksdb)
 
-## Install
+## 安装
 
 There exist two options to install gorocksdb.
 You can use either a own shared library or you use the embedded RocksDB version from [CockroachDB](https://github.com/cockroachdb/c-rocksdb).
