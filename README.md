@@ -54,7 +54,14 @@ docs
 
 flogging  
 
-membersrvc  
+membersrvc
+
+末端用户或者组织的身份发行与管理
+作用：
+ * 发行登记证书给各个末端使用者或者组织
+ * 发行交易证书到关联的各个末端使用者
+ * 发行TSL证书确保在HyperLedger Fabric之间通信
+ * 发行链特别的Key
 
 peer	 
 
@@ -62,3 +69,4 @@ pub
 
 settings.gradle
 
+目前只知道gradle是配置java链上代码的工具
