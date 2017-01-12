@@ -1,6 +1,6 @@
 #gRPC-Go
 
-[![Build Status](https://travis-ci.org/grpc/grpc-go.svg)](https://travis-ci.org/grpc/grpc-go) [![GoDoc](https://godoc.org/google.golang.org/grpc?status.svg)](https://godoc.org/google.golang.org/grpc)
+[![创建状态](https://travis-ci.org/grpc/grpc-go.svg)](https://travis-ci.org/grpc/grpc-go) [![Go文档](https://godoc.org/google.golang.org/grpc?status.svg)](https://godoc.org/google.golang.org/grpc)
 
 The Go implementation of [gRPC](http://www.grpc.io/): A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. For more information see the [gRPC Quick Start](http://www.grpc.io/docs/) guide.
 
@@ -49,9 +49,9 @@ GA
 FAQ
 ---
 
-#### Compiling error, undefined: grpc.SupportPackageIsVersion
+#### 编译错误, 未定义: grpc.SupportPackageIsVersion
 
-Please update proto package, gRPC package and rebuild the proto files:
+请更新proto包, gRPC 包和重建proto文件:
  - `go get -u github.com/golang/protobuf/{proto,protoc-gen-go}`
  - `go get -u google.golang.org/grpc`
  - `protoc --go_out=plugins=grpc:. *.proto`
